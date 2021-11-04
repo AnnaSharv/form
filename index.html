@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>infinity</title>
+</head>
+
+<body>
+    
+        <div class="navigation">
+            <img src="assets/images/s.png" alt="logo">
+            <div class="navigation__list">
+                <i class="fas fa-bars" style="font-size: 3rem;" id="burger"></i>
+                <ul class="navigation__list__ul">
+                    <li class="navigation__list-item">ჩვენზე</li>
+                    <li class="navigation__list-item">თემები</li>
+                    <li class="navigation__list-item">რესურსები</li>
+                </ul>
+                <button type="button" style="height:100%" id="nav-btn"> <img src="assets/images/user.png" alt="user"
+                        style="margin-right: 5px;"> შესვლა</button>
+                <img src="assets/images/search.png" alt="search-icon"
+                    style=" padding:10px; background-color: #f1f2f4; border-radius: 8px; ">
+            </div>
+
+            <span class="span__mr"> მთავარი <img src="assets/images/arrow-span.png" alt="arrow-span" style="margin: 0 3px;"> რეგისტრაცია </span>
+        </div>
+    
+
+    <main>
+        
+
+    <h1> რეგისტრაცია </h1>
+    <h3 class="auth">ავტორიზაცია შესაძლებელია მხოლოდ <br> განმანათლებლებისთვის</h3>
+    
+
+    <form action="/" id="form">
+        <div class="region  req">
+            <label for="region" >რეგიონი</label>
+            <input type="text" placeholder="აირჩიეთ რეგიონი" id="region" >
+            <img src="assets/images/icon-blue.png" alt="arrow" style="width:10px">
+            <div class="variants region">
+                <ul class="region__ul">
+                    <li class="region__item">თბილისი</li>
+                    <li class="region__item">აფხაზეთი</li>
+                    <li class="region__item">აჭარა</li>
+                    <li class="region__item">გურია</li>
+                    <li class="region__item">იმერეთი</li>
+                    <li class="region__item">კახეთი</li>
+                    <li class="region__item">მცხეთა-მთიანეთი</li>
+                    <li class="region__item">რაჭა-ლეჩხუმი და ქვემო სვანეთი</li>
+                    <li class="region__item">სამეგრელო-ზემო სვანეთი</li>
+                    <li class="region__item">სამცხე-ჯავახეთი</li>
+                    <li class="region__item">ქვემო ქართლი</li>
+                    <li class="region__item">შიდა ქართლი</li>
+                </ul>
+            </div>
+        </div>
+        <div class="positionz req">
+            <label for="position" >პოზიცია</label>
+            <input type="text" placeholder="აირჩიეთ პოზიცია" id="positions">
+            
+            <img src="assets/images/icon-blue.png" alt="arrow" style="width:10px">
+            <div class="variants">
+                <ul class="variants__ul">
+                    <li class="variants__item">მასწავლებელი</li>
+                    <li class="variants__item">სამართალდამცავი</li>
+                    <li class="variants__item">სხვა</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="workplace">
+            <label for="workplace">სამუშაო ადგილი</label>
+            <input type="text">
+        </div>
+        <div class="mail req">
+            <label for="mail">ელ.ფოსტა</label>
+            <input type="mail">
+        </div>
+        <div class="name req">
+            <label for="name">სახელი</label>
+            <input type="text">
+        </div>
+        <div class="lastName req">
+            <label for="lastName">გვარი</label>
+            <input type="text">
+        </div>
+        <div class="passw req">
+            <label for="passw">პაროლი</label>
+            <input type="password">
+            <img src="assets/images/eye.png" alt="password-icon" style="top: 59%; width:22px">
+        </div>
+        <div class="rpassw req">
+            <label for="rpassw">გაიმეორეთ პაროლი</label>
+            <input type="password">
+            <img src="assets/images/eye-crossed.png" alt="password-icon-crossed"style="top: 59%; width:22px"> 
+        </div>
+        <div class="conditions" style="margin-top: 25px;">
+             <input type="checkbox" >
+             <label for="checkbox"> ვეთანხმები პლატფორმის <a href="#"> მოხმარების პირობებს </a> </label>
+        </div>
+        <div class="conditions" style="margin-top: -10px;">
+             <input type="checkbox">
+             <label for="checkbox"> გავეცანი <a href="#"> კონფიდენციალურობის პოლიტიკას </a> </label>
+        </div>
+
+        <button type="submit" class="btn btn-register"> რეგისტრაცია </button>
+
+
+    </form>
+
+    <div class="fill__form">
+         <div class="fill-req"> გთხოვთ შეავსოთ ყველა ველი</div>
+        <span> ან </span>  
+    </div>
+
+    <div class="registration">
+        <button> <img src="assets/images/f-icon.png" alt=""> რეგისტრაცია Facebook-ით </button>
+        <button> <img src="assets/images/g-icon.png" alt=""> რეგისტრაცია Gmail-ით </button>
+
+        <h4> უკვე რეგისტრირებული ხართ? <a href="#"> მიყევით ამ ბმულს <img src="assets/images/arrow.png" alt="arrow-icon"> </a> </h4>
+    </div> 
+
+    </main>
+
+    
+    <footer>
+        
+        <div class="line__one">
+            
+            <span> info@school.ge </span>
+            <img src="assets/images/fb.png" alt="fb">
+            <img src="assets/images/youtube.png" alt="yt">
+
+            
+        </div>
+        
+            <p class="cond">მოხმარების პირობები</p>
+         
+            <p class="line">კონფიდენციალურობა</p>
+            
+            <p> &copy 2021 ყველა უფლება დაცულია </p>
+        
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
